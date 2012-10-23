@@ -1,0 +1,64 @@
+html{
+ background: linear-gradient(-90deg, #115588, #559999,#113355) repeat fixed 0 0 transparent;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+body{
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+}
+h1{
+	background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    font-size: 2.3em;
+    height: 110px;
+    line-height: 2.5;
+    margin: auto;
+    padding-left: 220px;
+    text-shadow: 2px 2px 2px gray;
+    width: 65%;
+}
+h2{
+	color: #0A215E;
+    font-size: 2em;
+    margin-top: 0;
+    text-shadow: 2px 2px 6px gray; 
+}
+header{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    padding: 0.8em 0.2em 0.2em;
+}
+
+footer{
+	background: none repeat scroll 0 0 rgba(22, 22, 22, 0.5);
+    padding-right: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    text-align: right;
+}
+
+
+#contenido{
+	background: none repeat scroll 0 0 rgba(11, 55, 88, 0.4);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.8);
+    margin: 0.5em auto;
+    width: 70%;
+}
+#cuerpo{
+	background: none repeat scroll 0 0 white;
+    color: black;
+    margin: auto;
+    padding-bottom: 1em;
+    text-align: center;
+}
+#cuerpo p,ul,li{
+   margin-bottom: 0;
+}
+#datos{
+	margin: auto;
+    text-align: left;
+    width: 80%;
+}
